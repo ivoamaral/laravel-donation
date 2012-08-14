@@ -1,0 +1,187 @@
+body {
+    background: url("../img/light_noise_diagonal.png") repeat scroll 0% 0% rgb(232, 232, 232);
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.textaligncenter {
+	text-align: center !important;
+}
+
+.textalignright {
+	text-align: right !important;
+}
+
+.textalignleft {
+	text-align: left !important;
+}
+
+.verticalalignmiddle {
+	vertical-align: middle !important;
+}
+
+input:not([type="image"]), textarea {
+	box-sizing: content-box;
+}
+
+.smalltext {
+	font-size: 12px !important;
+}
+
+.smallertext {
+	font-size: 10px !important;
+}
+
+.wrap {
+	word-wrap: break-word !important;
+}
+
+
+/* NORMAL STYLES ----------- */
+
+.gs-navigation{
+
+}
+
+.gs-content{
+	background: #fff;
+	padding-bottom:50px;
+	margin-bottom:50px;
+	padding:20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 12px 1px #ccc;
+}
+
+.page-title{
+	margin: 30px 0 30px 0;
+}
+
+.loginfield{
+	height:40px !important;
+	font-size:2em !important;
+	color:#54a954 !important;
+}
+
+table{
+	background: #fff;
+}
+
+.gs-dashboard .hero-unit{
+	padding:10px;
+}
+
+.navbar{
+	margin-bottom:0;
+}
+
+ul.nav.nav-tabs.nav-stacked li a{
+	background: #fff;
+	font-weight:bold;
+}
+ul.nav.nav-tabs.nav-stacked li a:hover,
+ul.nav.nav-tabs.nav-stacked li.active a
+{
+	background: #0389cc;
+	font-weight:bold;
+	color:#fff;
+}
+
+.orgform-header img.thumbnail{
+	background-color: #fff;
+	float:left;
+	margin-bottom:20px;
+	margin-right:10px;
+}
+
+
+/* GIVING FORM */
+.tab-pane{
+	background: #fff;
+	padding:10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.tabbable .nav-tabs{
+	margin-bottom: 0;
+	font-size:1.3em;
+}
+.tabbable .nav-tabs li.active a{
+	color: #000;
+}
+.nav-tabs li a:hover{
+	background: #ccc;
+	color:#000;
+}
+.tab-pane form input,
+.tab-pane form textarea,
+.tab-pane form select{
+	font-size:1.2em;
+	color:#184d76;
+}
+
+.tabbable .nav-tabs{
+	margin-left:5px;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.orgform-header{
+		text-align:center;
+	}
+	
+	.orgform-header img.thumbnail{
+		float:none;
+		margin:0 auto 20px auto;
+	}
+	
+	.tabbable .nav-tabs{
+		margin-bottom: 0;
+		font-size:1.1em;
+	}
+	
+	.gs-content{
+		background: #fff;
+		padding-bottom:10px;
+		margin-bottom:10px;
+		padding:5px;
+	}
+	
+	.tabbable .nav-tabs{
+		margin-left:0px;
+	}
+	body{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	.tabbable .nav-tabs{
+		margin-bottom: 0;
+		font-size:1em;
+	}
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.profile-summary .thumbnail{
+		margin-right:30px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
